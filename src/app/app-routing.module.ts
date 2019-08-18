@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { LeaderboardComponent } from './components/leaderboard/leaderboard.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path: '',
+    component: LeaderboardComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
